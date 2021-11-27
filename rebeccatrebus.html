@@ -1,31 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
   <head>
     <meta charset="utf-8">
-    <title>@@MyName@@’s Card</title>
+    <title>Rebecca Trebus’s Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=IBM+Plex+Serif:wght@600&display=swap" rel="stylesheet">
     <style>
-      /* Styling */
+    body{
+      background-color: lightblue;
+    color: black;
+    }
+
+    main{
+      padding: 20vw;
+    }
+    h1{
+      font-family: 'IBM Plex Serif', serif;
+      color: darkblue;
+    }
+
+    h2{
+      font-family: 'IBM Plex Serif', serif;
+      color: blue;
+    }
+
+    section{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+    }
+
+    li{
+      font-style: italic;
+    }
+
+    img{
+    width: 20vw;
+    }
+
+    a{
+      color: blue;
+    }
+
+    a:hover{
+      color: blue;
+      text-decoration: underline;
+    }
+
+    img:hover{
+      width: 60vw;
+      transition: : 1s;
+    }
+
+    footer{
+      background-color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
     </style>
   </head>
   </head>
   <body>
-    <header>
-      <h1>@@MyName</h1>
-    </header>
     <main>
+    <header>
+      <h1>That´s me: Rebecca Trebus</h1>
+    </header>
+
       <section aria-labelledby="bio-heading">
         <h2 id="bio-heading">Bio</h2>
-        <p>@@About Me@@</p>
+        <p>My name is Rebecca and I am a Digital Marketing Specialist and student in the Content Strategy Master Programme at the FH Joanneum. I work in online marketing. I love to travel, read books and try new dishes.</p>
+        <img src="img/Rebecca.jpg" alt="">
       </section>
-      <section aria-labelledby="hobbies-heading">
-        <h2 id="hobbies-heading">Hobbies</h2>
-        @@My Hobbies@@
-      </section>
+
       <section aria-labelledby="workxp-heading">
         <h2 id="workxp-heading">Work Experience</h2>
-        @@My Work Experience@@
+        <p>My Work Experience:
+          <ul>
+            <li>2020-2021: Online Marketing Manager</li>
+            <li>2021-Now: Digital Marketing Specialist</li>
+          </ul>
+        </p>
+
+          <p>My Work Skills:
+            <ul>
+              <li>CMS Systems</li>
+              <li>Newsletter Tools</li>
+              <li>Google Ads</li>
+              <li>Social Media</li>
+            </ul>
+          </p>
+
+      <section aria-labelledby="hobbies-heading">
+        <h2 id="hobbies-heading">Hobbies</h2>
+        <p>My favourite things to do:
+
+            <ul>
+              <li>Traveling</li>
+              <li>Reading Books</li>
+              <li>Skiing</li>
+              <li>Ballroom Dancing</li>
+            </ul>
+
+        </p>
       </section>
-    </main>
+
+<p>
+  <video  controls width="15%" height="15%" id="video">
+<source src="tanzen.Mov" type="video/mp4">
+</video>
+
+</p>
+<section aria-labelledby="funfacts-heading">
+  <h2 id="funfacts-heading">Fun Facts</h2>
+  <p>Some Fun Facts about me:
+
+      <ul>
+        <li>Hates everything coconut flavoured</li>
+        <li>Reads the ending of a book first</li>
+        <li>Isn´t a morning person, but wakes up at 6:30 AM the latest</li>
+
+      </ul>
+
+  </p>
+</section>
+
+
+  </main>
+<footer>
+<p>Made in 2021 for COS21</p>
+<a href="https://www.fh-joanneum.at/content-strategie-und-digitale-kommunikation/master/">Course Content Strategy</a>
+      </footer>
     <script>
       /* Scripting */
     </script>
