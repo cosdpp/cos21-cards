@@ -2,7 +2,7 @@ body
 	{
 		background-color:#ffcccc;
 		font-family: 'Open Sans', sans-serif;
-		
+		margin: 30px 30px 30px 30px;
 		width: 100%;
 	}
 
@@ -10,14 +10,11 @@ h1  {
 	color: black;
 	font-family: 'Outfit', sans-serif;
 	font-size: 4rem;
-	
-
 	}
 h2   {
 	color: black;
 	font-family: 'Outfit', sans-serif;
 	font-size: 2rem;
-
 	}
 
 a {
