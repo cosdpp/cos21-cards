@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Anna Wonderland</title>
+<title>Anna's holy hummus</title>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
@@ -30,9 +30,14 @@
 		width: 100%;
 		height: auto;}
 	
-		table, th, td {
-  		border: 0px;
-		}
+		.ingredients 
+		{ display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: calc(var(--default-padding) / 2);
+        margin:0;
+        padding: 0;
+		list-style: none}
     </style>
   </head>
 	
@@ -49,7 +54,7 @@
       </section>
       <section aria-labelledby="ingredients-heading">
         <h2 id="ingredients-heading">Ingredients</h2>
-        <ul>
+        <ul class="ingredients">
 			<li> Chickpeas and its water </li>
 			<li> Tahini</li>
 			<li> Ice cold water</li>
@@ -61,16 +66,7 @@
 		  
 		  <section aria-labelledby="ingredients-heading">
 
-		  <table>
- 		<tr>
-			<th>Month</th>
-    		<th>Savings</th>
-  		</tr>
-			  <tr>
-				  <td>test</td>
-				  
-			  </tr>
-		  </table>
+		 
 		  
       </section>
 		
