@@ -3,15 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Eric’s Card</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <style>
+     @font-face {
+          font-family: "Bridge Head Basic";
+          src: url("https://yatil.net/assets/fonts/BridgeHeadBasic-Black.woff2") format("woff2");
+          font-weight: normal;
+          font-style:normal
+      }
+
+      @font-face {
+          font-family: "Bariol";
+          src: url("https://yatil.net/assets/fonts/bariol_regular.woff2") format("woff2");
+          font-weight: normal;
+          font-style:normal
+      }
+
+      @font-face {
+          font-family: "Bariol";
+          src: url("https://yatil.net/assets/fonts/bariol_regular_italic.woff2") format("woff2");
+          font-weight: normal;
+          font-style:italic
+      }
+
+      @font-face {
+          font-family: "Bariol";
+          src: url("https://yatil.net/assets/fonts/bariol_bold.woff2") format("woff2");
+          font-weight: bold;
+          font-style:normal
+      }
+
+      @font-face {
+          font-family: "Bariol";
+          src: url("https://yatil.net/assets/fonts/bariol_bold_italic.woff2") format("woff2");
+          font-weight: bold;
+          font-style:italic
+      }
       :root {
         --default-radius: 15px;
         --default-padding: 1rem;
       }
-      body { font-family: 'Lato', sans-serif; font-size: 1.25rem; background-color: #e8eeee; color: #333; line-height: 1.5;}
+      body { font-family: Bariol, sans-serif; font-size: 1.25rem; background-color: #e8eeee; color: #333; line-height: 1.5;}
       svg { height: 1.5em; width: 1.5em; vertical-align: middle;}
 
       header {
@@ -21,6 +52,7 @@
         border-top-right-radius: var(--default-radius);
         margin-bottom: var(--default-padding);
       }
+      header h1 { font-family: "Bridge Head Basic"; }
       header h1, header p {
         margin: 0;
       }
