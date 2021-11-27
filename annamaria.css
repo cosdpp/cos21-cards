@@ -1,0 +1,43 @@
+header { 
+		margin-left: 0%;
+		margin-right: 0%;
+		margin-bottom: 50px;
+		padding-bottom: 100px;
+		
+		background-image: url(img/meer.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+body 
+	{
+		
+		background-color:#325862;
+		color: white;
+		}
+
+h1	{
+		font-family: 'Outfit', sans-serif;
+		font-size: 200px;
+		}
+	
+h2 {
+
+		font-family: 'Outfit', sans-serif;
+		font-size: 50px;
+		}
+		
+h3 {
+		font-family: 'Outfit', sans-serif;
+		font-size: 40px;
+		}
+		
+h4 {
+		font-family: 'Outfit', sans-serif;
+		font-size: 30px;
+		}
+		
+p {
+		font-family: 'Outfit', sans-serif;
+		font-size: 20px;
+		}
