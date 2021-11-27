@@ -1,33 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
-    <title>@@Filiberto Daidola@@’s Card</title>
-    <style>
-      /* Styling */
-    </style>
+    <title>Filiberto Daidola’s - Card</title>
+
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/x-icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/rocket_1f680.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+      <style >
+      body{
+        background-color: rgb(25, 23, 28);
+        color: white;
+      }
+
+      main{
+        padding: 10vw;
+      }
+
+      h1{
+        font-family: 'IBM Plex Serif', serif;
+        color: yellow;
+      }
+
+      h2{
+        font-family: 'IBM Plex Serif', serif;
+        color: green;
+      }
+
+      section{
+      font-family: 'IBM Plex Sans', sans-serif;
+      }
+
+      li{
+        font-style: italic;
+      }
+
+      img{
+        width: 60vw;
+        transition: 5s;
+      }
+
+      a{
+        color: white;
+        text-decoration: none;
+        }
+
+      a:hover{
+        color: yellow;
+        text-decoration: underline;
+      }
+
+      img:hover{
+        width: 63vw;
+        transition: 1s;
+      }
+
+
+      footer{
+        background-color: rgb(61, 69, 58);
+        text-align: center;
+        padding: 20px;
+      }
+#realsite a{
+  color: red;
+  font-size: 2rem;
+}
+      </style>
   </head>
-  </head>
+
   <body>
-    <header>
-      <h1>@@MyName</h1>
-    </header>
     <main>
+      <header>
+        <h1>Filiberto Daidola - Personal Beautiful Card</h1>
+       </header>
       <section aria-labelledby="bio-heading">
-        <h2 id="bio-heading">Bio</h2>
-        <p>@@About Me@@</p>
+        <h2 id="bio-heading"> Bio </h2>
+        <p>About Me</p>
+        <p>I'm a freelancer based in beautiful Trentino, heart of the Italian Dolomites and I've graduated in Design and Art at unibz.
+          I'm also a student at the Content Strategy MA at FH Joanneum (Graz, AT).</p>
+
+          <img src="https://cdn.theatlantic.com/thumbor/viW9N1IQLbCrJ0HMtPRvXPXShkU=/0x131:2555x1568/976x549/media/img/mt/2017/06/shutterstock_319985324/original.jpg" alt="this is a cat image and the cat is jumping and i like cats">
+
       </section>
+
       <section aria-labelledby="hobbies-heading">
         <h2 id="hobbies-heading">Hobbies</h2>
-        @@My Hobbies@@
+        <p>My favourite things to do in my free time are:
+          <ul>
+            <li>Skiing</li>
+            <li>Riding my gravel bike</li>
+            <li>Coding *not really*</li>
+          </ul>
+        </p>
       </section>
+
       <section aria-labelledby="workxp-heading">
         <h2 id="workxp-heading">Work Experience</h2>
-        @@My Work Experience@@
+        <p>What I can do:
+          <ul>
+            <li>Videomaking</li>
+            <li>Photography</li>
+            <li>Web Design</li>
+          </ul>
+        </p>
+      </section>
+
+      <section aria-labelledby="workxp-heading">
+        <h2 id="workxp-heading">Other stuff</h2>
+        <p>
+          <ul>
+            <li id="realsite">  <a href="www.filiber.to"> !!My actual website is here!!</a> </li>
+            <li> <a href="vimeo.com/filiberto">My vimeo profile</a> </li>
+          </ul>
+        </p>
       </section>
     </main>
+
+    <footer>
+      <p>Made in 2021 for COS DPP Course</p>
+      <a href="https://www.fh-joanneum.at/content-strategie-und-digitale-kommunikation/master/en/programme/">Content Strategy at Fh Joanneum</a>
+    </footer>
+
     <script>
       /* Scripting */
     </script>
   </body>
+
+
 </html>
