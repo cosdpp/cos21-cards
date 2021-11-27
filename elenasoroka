@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Elena Soroka’s Card</title>
+    <title>Elena’s Card</title>
     <style>
       /* Styling */
     </style>
@@ -15,11 +15,11 @@
     <main>
       <section aria-labelledby="bio-heading">
         <h2 id="bio-heading">Bio</h2>
-        <p>@@About Me@@</p>
+        <p>What you don´t know about me</p>
       </section>
       <section aria-labelledby="hobbies-heading">
         <h2 id="hobbies-heading">Hobbies</h2>
-        @@My Hobbies@@
+        Where you can invite me 
       </section>
       <section aria-labelledby="workxp-heading">
         <h2 id="workxp-heading">Work Experience</h2>
