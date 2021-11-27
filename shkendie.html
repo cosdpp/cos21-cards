@@ -2,32 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>@@MyName@@’s Card</title>
+    <title>Shkendie’s Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     <style>
       /* Styling */
+      header {
+        font-family: 'DM Serif Display', serif;
+        background-color: #fff8f0;
+        color: #759fbc;
+        font-size: 22pt;
+        margin-top: -2rem;
+        margin-bottom: -2rem;
+      }
+      body {
+        font-family: 'DM Sans', sans-serif;
+        background-color: #fff8f0;
+        padding: 1rem;
+      }
+      svg { height: 1.5em; width: 1.5em; vertical-align: middle;}
+
+      .avatar {
+        float: right;
+        margin: 1rem;
+      }
+
+      h2 {
+        font-size: 13pt;
+        font-weight: bold;
+      }
+
+      section {
+        padding-top: 1rem;
+      }
+
     </style>
+
   </head>
-  </head>
+
   <body>
     <header>
-      <h1>@@MyName</h1>
+      <h1>Shkendie Sopa</h1>
     </header>
+
     <main>
-      <section aria-labelledby="bio-heading">
-        <h2 id="bio-heading">Bio</h2>
-        <p>@@About Me@@</p>
+
+      <section class="bio-heading">
+        <h2 id="bio-heading">Who I think I am</h2>
+        I'm 25 years old Interaction Designer who recently moved to Graz <br> to study Content Strategy @ FH Joanneum.
       </section>
-      <section aria-labelledby="hobbies-heading">
-        <h2 id="hobbies-heading">Hobbies</h2>
-        @@My Hobbies@@
+
+      <section class="hobbies-heading">
+        <h2 id="hobbies-heading">What I like doing</h2>
+        painting portraits, reading, panicing
       </section>
-      <section aria-labelledby="workxp-heading">
-        <h2 id="workxp-heading">Work Experience</h2>
-        @@My Work Experience@@
+
+      <section class="workxp-heading">
+        <h2 id="workxp-heading">What I've been up to</h2>
+        <ul class="awards">
+          <li>since November 2021: Product Designer @ SmartGarden</li>
+          <li>September 2019 - March 2020: Interaction Designer @ Bosch</li>
+        </ul>
       </section>
+
     </main>
+
+
     <script>
       /* Scripting */
     </script>
+
+
   </body>
 </html>
