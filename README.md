@@ -16,7 +16,7 @@
 * https://cosdpp.github.io/cos21-cards/elenasoroka.html
 * https://cosdpp.github.io/cos21-cards/ericeggert.html
 * https://cosdpp.github.io/cos21-cards/filibertodaidola.html
-* https://cosdpp.github.io/cos21-cards/gabijakiausaite.html
+* https://cosdpp.github.io/cos21-cards/gabija.html
 * https://cosdpp.github.io/cos21-cards/iidasirvio.html
 * https://cosdpp.github.io/cos21-cards/lisapenz.html
 * https://cosdpp.github.io/cos21-cards/mariethereshuber.html
