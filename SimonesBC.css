@@ -1,0 +1,19 @@
+body 
+	{
+		background-color:#000000;
+		background-size: 600px;
+		font-family: 'Outfit', sans-serif;
+		background-image: url(../img/SimonesBC.jpg);
+		background-repeat: no-repeat;
+		color: white;
+		background-position: 400px 40px;
+	}
+	
+	h1 { text-align:start; font-size: 90px; color: #808080; text-shadow: 5px 1px #FFFFFF;}
+	
+	p {font-family: 'Optima', Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;}
+	
+	h3 {text-align:start, color: white, tex}
+	
+	#footer {margin-top: 50px; font-family: 'Harry Potter';}
+
