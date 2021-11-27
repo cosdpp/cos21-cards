@@ -1,0 +1,74 @@
+body 
+	{
+		background-color:black;
+		font-family: 'Syne', sans-serif;
+		
+		width: 100%;
+	}
+
+h1  {
+	color: #45FFCE;
+	font-family: 'Space Mono', monospace;
+	font-style: italic;
+	font-size: 3.5rem;
+	
+
+	}
+h2   {
+	color: #45FFCE;
+	font-family: 'Space Mono', monospace;
+	font-style: italic;
+	font-size: 2rem;
+
+	}
+h3   {color: black;
+	font-size: 2rem;
+	}
+
+a {
+  color: black;
+}
+
+p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+#header
+	{ 
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-bottom: 100px;
+		
+		background-image: url(../img/xaverswunderwelt_header.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	
+#main
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		
+		background-color:black;
+		color: white;
+	}
+	
+	
+#footer
+	{
+	background-color:#45FFCE;
+	color: black;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	
+	}
+	
