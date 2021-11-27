@@ -42,8 +42,17 @@
         --default-radius: 15px;
         --default-padding: 1rem;
       }
-      body { font-family: Bariol, sans-serif; font-size: 1.25rem; background-color: #e8eeee; color: #333; line-height: 1.5;}
-      svg { height: 1.5em; width: 1.5em; vertical-align: middle;}
+      body { font-family: Bariol, sans-serif; font-size: 1.25rem; background-color: #e8eeee; color: #333; line-height: 1.5;
+        max-width: 60rem;
+        margin: 0 auto;
+        padding: var(--default-padding);
+      }
+      svg {
+        height: 1.5em;
+        width: 1.5em;
+        vertical-align: middle;
+        fill: currentColor;
+      }
 
       header {
         background-color: #fff;
