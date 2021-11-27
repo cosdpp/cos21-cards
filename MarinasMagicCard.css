@@ -4,6 +4,10 @@ body
 		font-family: 'Open Sans', sans-serif;
 		padding: 5vw;
 	}
+img {
+  width: 200px,
+  height: auto
+}
 
 h1  {
 	color: black;
