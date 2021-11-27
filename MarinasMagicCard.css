@@ -1,0 +1,31 @@
+body 
+	{
+		background-color:#ffcccc;
+		font-family: 'Open Sans', sans-serif;
+		
+		width: 100%;
+	}
+
+h1  {
+	color: black;
+	font-family: 'Outfit', sans-serif;
+	font-size: 4rem;
+	
+
+	}
+h2   {
+	color: black;
+	font-family: 'Outfit', sans-serif;
+	font-size: 2rem;
+
+	}
+
+a {
+  color: black;
+}
+
+p {
+  color: black;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
