@@ -28,7 +28,7 @@
 			color: #242424;
 			margin: 25px;
 		}
-				
+		
 		.link {
 		color: black;
 		}
@@ -70,6 +70,14 @@
   height: 1em;
   margin-right: 0.4em;
   ve
+	
+	
+	#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
 		
     </style>
 	
@@ -122,7 +130,7 @@
     </section>
 		  
 	<section>
-		<h4> share via </h4>
+		<h4> Share via </h4>
 		<!-- Sharingbutton Facebook -->
 <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -164,6 +172,16 @@
 </a>
 
 		  </section>
+		  
+	<section
+			 
+    <input type="text" id="comment-box" placeholder="Enter comment">
+    <button id="post">Post</button>
+    <ul id="unordered">
+       
+   </ul>
+   
+			 </section>
 		
 	  <section aria-labelledby="about-heading">
         <h2 id="about-heading">About Anna</h2>
@@ -175,8 +193,18 @@
 		  
 		
   </main>
-  <script>
-      /* Scripting */
-    </script>
+  <script src="code.js"> 
+	var post= document.getElementById("post");
+post.addEventListener("click", function(){
+    var commentBoxValue= document.getElementById("comment-box").value;
+ 
+    var li = document.createElement("li");
+    var text = document.createTextNode(commentBoxValue);
+    li.appendChild(text);
+    document.getElementById("unordered").appendChild(li);
+ 
+});
+	</script>
+	
   </body>
 </html>
