@@ -11,78 +11,100 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,200&family=IBM+Plex+Serif:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
     <style>body {
-      font-family: 'Genos', sans-serif;
-      font-weight: bold;
-      background: 5px;
-      background-color: rosybrown;
-      color: darkmagenta;
-      text-align: center;
-    }
-    
-    h1 {font-family: 'IBM Plex Serif', serif;
-    font-size: 100px;
-    font-style: Serif;
-    }
-    
-    h2 {font-family: 'IBM Plex Serif', serif;
-    font-size: 50px;
-    font-style: Serif;
-    color: black;
-    }
-    
-    p {font-family: font-family: 'Genos', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    color: black;
-    }
-    
-    li  {font-size: 30px;
-    }
-    
-    img {
-      width: 60vw;
-    }
-    
-    img: hover {
-      width: 60vw;
-      transition: 1s;
-    }
-    
-    a{
-      color: black;
-      font-size: 30px;
-    }
-    
-    a:hover{
-      color: blue;
-    }
-    
-    footer {
-    background-color: white;
-    font: Times;
-    }
-    
+  font-family: 'Genos', sans-serif;
+  font-weight: bold;
+  background: 5px;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+}
+
+h1 {font-family: 'IBM Plex Serif', serif;
+font-size: 100px;
+font-style: Serif;
+}
+
+h2 {font-family: 'IBM Plex Serif', serif;
+font-size: 50px;
+font-style: Serif;
+color: black
+}
+
+p {font-family:  'Genos', sans-serif;
+font-size: 40px;
+font-style: normal;
+color: black
+}
+
+li  {font-size: 30px;
+}
+
+.rund{-webkit-border-radius: 1000px}
+
+
+img {
+  width: 30vw;
+  class="rund";
+}
+
+
+img: hover {
+  width: 80vw;
+  transition: 1s;
+}
+
+a{
+  color: black;
+  font-size: 30px;
+
+}
+
+a:hover{
+  color: blue;
+}
+
+table#Tabelle1 {border: 1px solid black;
+  background-color: white;
+  align: center;}
+
+  table#Tabelle1 tr:nth-child(even) {background-color: #aaa;}
+  table#Tabelle1 tr:nth-child(odd) {background-color: #fff;}
+  table#Tabelle1 th {color: white;
+  background-color: black; padding: 4px 4px 2px 4px;}
+  table#Tabelle1 td {border: 1px solid black; padding: 2px;}
+  table#Tabelle1 tr: last-of-type td {background-color: #fffb99; text-align: center;}
+
+img, table#Tabelle1 > p:last-of-type { margin-bottom: 3em; }
+
+footer {
+background-color: white;
+font: Times;
+}
 
          </style>
   </head>
-  
+
+
   <body>
     <header>
       <h1>Lisa Penz's Card</h1>
     </header>
 
+
     <main>
       <section aria-labelledby="bio-heading">
         <h2 id="bio-heading">Bio</h2>
         <p>About Me</p>
-        <p>🐉Content Strategy Student at FH Joanneum and Journalist at OÖNachrichten</p>
+        <p>Content Strategy Student at FH Joanneum 🐉 <br> and Journalist at OÖNachrichten</p>
       </section>
-      
-       <img src="https://www.mein-schoener-garten.de/sites/default/files/styles/inline_scaled_l/public/vergissmeinnicht-13816903-istock.jpg" alt="flower">
+
+      <img class="rund" src="portrait.jpg" alt="this is me">
+
+
 
       <section aria-labelledby="hobbies-heading">
         <h2 id="hobbies-heading">Hobbies</h2>
-        <p>What I do in my freetime:
+        <p>This are my favorite things to do:
           <ul>
    <li>Travelling</li>
    <li>Reading</li>
@@ -93,28 +115,39 @@
 
       <section aria-labelledby="workxp-heading">
         <h2 id="workxp-heading">Work Experience</h2>
-        <p>This is where I work(ed):
+        <p>Work experience:
           <ul>
    <li>2014-2018 Journalist at BezirksRundschau</li>
    <li>2018-now Journalist at OÖNachrichten</li>
  </ul>
 <a href="https://www.linkedin.com/in/lisa-penz-bb5925220/">Look at my Linkedin</a> </p>
-    
-      </section>  
-  
-       <section aria-labelledby="workxp-heading">
-        <h2 id="workxp-heading">Education</h2>
-        <p>I studied at:
-          <ul>
-   <li>University Salzburg (communication science)</li>
-   <li>FH Joanneum (content strategy)</li>
- </ul>
 
-   
-      </section>  
-  
-    <img class= "avatar" src="img/Lisa.jpg" alt="flower">
-  
+      </section>
+
+      <center>
+      <table id= "Tabelle1">
+
+        <tr>
+        <th>Education</th>
+          <th>Work Objectives</th>
+            <th>Skills</th>
+        </tr>
+      <tr>
+      <td>University of Salzburg</td>
+      <td>BezirksRundschau</td>
+      <td>Journalism</td>
+      </tr>
+      <tr>
+      <td>FH Joanneum</td>
+      <td>OÖNachrichten</td>
+      <td>Reporting</td>
+      </tr>
+      <tr>
+        <td colspan="3"> Card of Lisa Penz</td>
+      </tr>
+      </table>
+      </center>
+
     </main>
 
 <footer>
@@ -126,6 +159,8 @@
       /* Scripting */
     </script>
   </body>
+
+
 
 
 </html>
