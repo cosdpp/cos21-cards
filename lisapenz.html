@@ -63,9 +63,16 @@ a:hover{
   color: blue;
 }
 
+
 table#Tabelle1 {border: 1px solid black;
   background-color: white;
-  align: center;}
+  align: center;
+table-layout: fixed;
+width: 1300px}
+
+table.doFixed {
+   table-layout: fixed;
+}
 
   table#Tabelle1 tr:nth-child(even) {background-color: #aaa;}
   table#Tabelle1 tr:nth-child(odd) {background-color: #fff;}
@@ -125,7 +132,7 @@ font: Times;
       </section>
 
       <center>
-      <table id= "Tabelle1">
+      <table id= "Tabelle1" class="doFixed">
 
         <tr>
         <th>Education</th>
