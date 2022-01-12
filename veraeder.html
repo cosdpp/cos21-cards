@@ -15,9 +15,16 @@
       
  <style>
         
-    body {font-family: 'Oswald', sans-serif; background: #284A53;}
+    body {
+        font-family: 'Oswald', sans-serif;
+        background-image: url(imgcos/vera.png);
+        background-repeat: no-repeat;
+        /*background-size: cover; */
+        background-color: #284A53;
+        background-size:contain
+     }
         
-        
+     body {color: floralwhite; margin: 5%}   
    
      
      
@@ -25,33 +32,76 @@
      
      
      
-    h1 (color:coral;) 
-     
-     header {text-align: center; 
-     
-     margin: 5% 0% 5% 0%;
-     
-     margin-top: 5%;
-     margin-right: 0%;
-     margin-bottom: 5%;
-     margin-left: 0%;}
+     h1 {
+         color:floralwhite;
+         font-size: 5em;
+         
+         margin-top: 20%;
+         margin-left: 7em;
+     } 
      
      
      
+     header {text-align: end; 
      
-     section {background-color: beige;}
+     margin-top: 0%;
+     margin-right: 10%;
+     margin-bottom: 0%;
+     margin-left: 10%;}
      
-     .bio-heading {margin: 20%; padding: 5%;}
      
-     #bio-heading (color: crimson;text-align: Center;)
+     
+     
+     p {color: floralwhite}
+     
+     .bio-headline{
+         font-size: 2em;
+             text-align: end;
+         
+        margin-top: -1%;
+        margin-right: 10%;
+        margin-bottom: 0%;
+        margin-left: 50%;
+     }
+
+     
+     .bio-heading {
+        margin: 20% 
+         padding: 5%;
+         padding-top: 30em;
+     }
+     
+     #bio-heading{
+         color: floralwhite;
+        text-align: left;
+         padding-top: 0em
+     }
+     
+     
+     .myskills-heading{
+        padding-top:1em;
+     } 
+     
+      .workxp-heading{
+         padding-top: 0em;
+     }
+     
+    
+     .contactme-heading{
+         padding-top: 0em;
+         
+     }
+     
+    
+      /*.image-vera {
+          width: 40%; 
+          height: 40%;
+     } */
+    
+     
+/* .image-vera {width: 40%} */
      
       
-      
-      
-     .image-vera {width: 50%;} 
-      
-  
-     .image-vera {width: 80%}  
       /* 
       talk to classes: .
       talk to ids: #
@@ -71,47 +121,57 @@
     
   <body>
     <header>
-      <h1>Nice to meet you. I'm Vera</h1>
+      <h1>Hi, I'm Vera.</h1>
     </header>
       
+      
+<section class ="bio-headline">
+          
+        <p>Marketing and Communications Manager.  </p>
+    <p>Future Content Strategist.  </p>
     
-    <main>
+     </section>
         
       <section class ="bio-heading">
-        <h2 id="bio-heading">Bio</h2>
+        <h2 id="bio-heading">About me</h2>
           
-        <p>Hi, I'm Vera </p>
+        <p> I love creating and supporting others in the creation process. Let's create something that arises emotions.  </p> 
         
-          
-          
-          
-          
-      <img class ="image-vera" src="img/vera.JPG" alt="This is a picture of Vera."
-          
+     
+         <!-- <img class ="image-vera" src="img/vera.png" alt="This is a picture of Vera." -->
           
       </section>
         
-        
-      <section aria-labelledby="hobbies-heading">
-        <h2 id="hobbies-heading">Hobbies</h2>
-        That's what I love:
-          
+            
+      <section class="my skills-heading">
+        <h2 id="my skills-heading">My skills</h2>
+          I am happy to help you with:
           <ul>
-          <li>photography</li>
-        <li>videography</li>
+          <li>Marketing Management</li>
+              <li>Event Management</li>
+              <li>Content Creation</li>
+              <li>Content Strategy</li>
+              <li>Graphic Design</li>
+               <li>Public Relations</li>
           </ul>
-          
-          
-      </section>
+        </section>
         
         
-      <section aria-labelledby="workxp-heading">
+      <section class="workxp-heading">
         <h2 id="workxp-heading">Work Experience</h2>
-        Marketing and Communications Managerin
+        I have 5 years of experience in working in Marketing. I started as a Content and Social Media Manager and then became a Marketing and Communications Manager.
+          I am currently on my way to become a Content Strategist.
       </section>
         
+          <section class="contactme-heading">
+        <h2 id="contactme-heading">Let's keep in touch</h2>
+              <li><a href="mailto:vera.eder1109@gmail.com" style="color:floralwhite">E-Mail</a>
+              <li><a href="https://www.linkedin.com/in/vera-eder-a025aa223/" style="color:floralwhite">LinkedIn</a> </li>
+              
+      </section>
+          
         
-    </main>
+
       
       
       
