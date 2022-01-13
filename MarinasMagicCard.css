@@ -10,23 +10,23 @@ img {
 }
 
 h1  {
-	color: black;
+	color: white;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 4rem;
 	}
 h2   {
-	color: black;
+	color: yellow;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 2rem;
 	}
 
 a {
-  color: black;
+  color: white;
 }
 
 p {
-  color: black;
-	font-family: 'Open Sans', sans-serif;
+  color: white;
+	font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
 }
 #header
