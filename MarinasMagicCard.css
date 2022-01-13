@@ -21,7 +21,8 @@ h2   {
 	color: #FFD801;
 font-family: 'Montserrat', sans-serif;
 	font-size: 3rem;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 	}
 
 a {
