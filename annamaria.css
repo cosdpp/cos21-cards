@@ -1,10 +1,11 @@
 header { 
 		margin-left: 0%;
 		margin-right: 0%;
-		margin-bottom: 50px;
-		padding-bottom: 100px;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding-bottom: 0%;
 		
-		background-image: url(img/meer.jpg);
+		background-image: url(img/zellamsee.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 	}
@@ -12,7 +13,7 @@ header {
 body 
 	{
 		
-		background-color:#325862;
+		background-color:#647ca1;
 		color: white;
 		}
 
@@ -22,9 +23,9 @@ h1	{
 		}
 	
 h2 {
-
 		font-family: 'Outfit', sans-serif;
 		font-size: 50px;
+		margin-top: 0%;
 		}
 		
 h3 {
