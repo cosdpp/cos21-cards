@@ -16,13 +16,13 @@ img {
 h1  {
 	color: white;
 	font-family: 'Bebas Neue', cursive;
-	font-size: 8rem;
+	font-size: 6rem;
 	}
 h2   {
 	color: #FFD801;
 font-family: 'Montserrat', sans-serif;
 	font-size: 3rem;
-	line-height: 2pt;
+	line-height: 1rem;
 	}
 
 a {
