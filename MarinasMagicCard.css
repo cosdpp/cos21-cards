@@ -29,3 +29,41 @@ p {
 	font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
+#header
+	{ 
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-bottom: 200px;
+		padding-bottom: 200px;
+		
+		background-image: url(img/MarinasMagicBackground.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	
+#main
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		
+		background-color:black;
+		color: white;
+	}
+	
+	
+#footer
+	{
+	background-color:white;
+	color: black;
+
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	
+	}
