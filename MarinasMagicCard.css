@@ -22,7 +22,7 @@ h2   {
 	color: #FFD801;
 font-family: 'Montserrat', sans-serif;
 	font-size: 3rem;
-	line-height: 1rem;
+	line-height: 25%;
 	}
 
 a {
@@ -32,13 +32,13 @@ a {
 p {
   color: white;
 font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 ul {
   color: white;
 font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 #header
 	{ 
