@@ -4,12 +4,13 @@ body
 		color: white;
 		padding: 5vw;
 	}
+
 img {
-  width: 200px;
+  width: 100%;
   height: auto;
 	position: absolute;
-        top: 0px;
-        right: 0px;
+        top: 30px;
+        right: 10px;
     }
 
 
