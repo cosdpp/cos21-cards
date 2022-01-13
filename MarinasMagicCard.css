@@ -1,7 +1,6 @@
 body 
 	{
 		background-color:#222222;
-		font-family: 'Quicksand', sans-serif;
 		color: white;
 		padding: 5vw;
 	}
@@ -30,6 +29,12 @@ a {
 }
 
 p {
+  color: white;
+	font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+}
+
+ul {
   color: white;
 	font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
