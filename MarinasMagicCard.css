@@ -8,8 +8,10 @@ body
 img {
   width: 200px;
   height: auto;
-	float: right;
-	float: top;
+	position: absolute;
+        top: 0px;
+        right: 0px;
+    }
 }
 
 h1  {
