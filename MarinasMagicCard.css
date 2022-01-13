@@ -5,10 +5,10 @@ body
 		padding: 5vw;
 	}
 img {
-  width: 50%;
+  width: 10%;
   height: auto;
 	position: absolute;
-        top: 30px;
+        top: 100px;
         right: 10px;
     }
 
