@@ -22,6 +22,7 @@ h2   {
 	color: #FFD801;
 font-family: 'Montserrat', sans-serif;
 	font-size: 3rem;
+	padding-bottom: 10px;
 	}
 
 a {
@@ -36,7 +37,7 @@ font-family: 'Montserrat', sans-serif;
 
 ul {
   color: white;
-	font-family: 'Quicksand', sans-serif;
+font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 #header
@@ -45,7 +46,6 @@ ul {
 		margin-right: 10%;
 		margin-top: 50px;
 		margin-bottom: 50px;
-		padding-bottom: 200px;
 		padding-bottom: 200px;
 		
 		background-image: url(img/MarinasMagicBackground.jpg);
