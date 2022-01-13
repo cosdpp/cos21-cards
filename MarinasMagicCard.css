@@ -62,22 +62,3 @@ font-family: 'Montserrat', sans-serif;
 	}
 	
 	
-#footer
-
-.triangle {
-  width: auto;
-  height: 0;
-  border-left: 50vw solid #21183c;
-  border-right: 50vw solid #21183c;
-  border-top: 80px solid #f1f5f8;
-}
-
-.Footer-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #f3ebff;
-  background-color: #21183c;
-}
