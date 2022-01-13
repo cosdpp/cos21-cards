@@ -1,14 +1,15 @@
 body 
 	{
 		background-color:#222222;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Quicksand', sans-serif;
+		color: white;
 		padding: 5vw;
 	}
 img {
-  width: 200px,
-  height: auto,
-	float: right,
-	float: top
+  width: 200px;
+  height: auto;
+	float: right;
+	float: top;
 }
 
 h1  {
