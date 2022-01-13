@@ -2,9 +2,10 @@ body
 	{
 		background-color:#222222;
 		color: white;
+		padding: 5vw;
 	}
 img {
-  width: 100&;
+  width: 100%;
   height: auto;
 	position: absolute;
         top: 30px;
