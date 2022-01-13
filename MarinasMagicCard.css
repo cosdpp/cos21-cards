@@ -6,7 +6,9 @@ body
 	}
 img {
   width: 200px,
-  height: auto
+  height: auto,
+	float: right,
+	float: top
 }
 
 h1  {
