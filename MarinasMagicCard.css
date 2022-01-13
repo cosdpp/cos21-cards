@@ -6,12 +6,9 @@ body
 	}
 
 img {
-  width: 100%;
-  height: auto;
-	position: absolute;
-        top: 30px;
-        right: 10px;
-    }
+	width: 200px,
+	height: auto
+}
 
 
 h1  {
@@ -21,25 +18,25 @@ h1  {
 	}
 h2   {
 	color: #FFD801;
-font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 3rem;
 	line-height: 25%;
 	}
 
 a {
-  color: white;
+ 	 color: white;
 }
 
 p {
-  color: white;
-font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  	color: white;
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 1.5rem;
 }
 
 ul {
-  color: white;
-font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  	color: white;
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 1.5rem;
 }
 #header
 	{ 
@@ -72,6 +69,4 @@ font-family: 'Montserrat', sans-serif;
 	padding-bottom: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
-	
-	
 	}
