@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175221770-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175221770-1');
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Filiberto Daidola | Videomaker, Fotografo</title>
+  <meta name="title" content="Filiberto Daidola | Video, Foto e Content creation">
+  <meta name="description" content="Videomaker e Fotografo in Trentino Alto Adige | Videomaker, Photographer and Designer based in Trentino Alto Adige, Italy. Filiberto Daidola Videomaker Social Media Content Creator Aftermovies Video Evento">
+  <meta name="author" content="Filiberto Daidola">
+  <meta name="keywords" content="Videomaker, Video, Trento, Trentino, Pergine Valsugana, Fotografo, Photography, Photographer, Foto, Video maker, Design, Designer, Web design, Comunicazione, Communication, Campagne pubblicitarie, Aftermovie, evento, SOcial media manager, Content creator, Aftermovies, event video, Filiberto Daidola" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,300&family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/rocket.png">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<style>
+  /*   MOBILE   */
+
+  @media screen and (max-width: 700px) {
+  
+      .intro{
+        height: 40vh!important;
+      }
+
+      h1 {
+          font-size: 2rem;
+          padding-top: 5vh;
+        }
+
+      footer{
+        position: sticky!important;
+        top: 78.5vh!important;
+        bottom: auto!important;
+        padding: 1.9rem 0;
+      }
+
+      .foot{
+          grid-template-columns: repeat(1, 1fr)!important;
+          grid-auto-rows: minmax(10px, auto)!important;
+          gap: 2rem!important;
+        }
+
+      .row{
+
+          }
+
+      #showreelframe{
+        height: 50vh!important;
+        padding-bottom: 36vh;
+      }
+
+      .mobile {
+        visibility: visible!important;
+        padding-top: .5rem;
+      }
+
+  }
+
+  .mobile{
+    visibility: hidden;
+  }
+
+  html, body {
+    margin: auto;
+    background-color: #2D2D2D;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+  }
+
+  main {
+    width: 90vw;
+    max-width: 1200px;
+    padding: 0 5vw;
+    margin: auto;
+  }
+
+  .noshow {
+    display: none;
+    visibility: hidden;
+    opacity: 0%;
+    font-size: 0.0000001px;
+  }
+
+  #langselect {
+    font-style: italic;
+    font-size: .8rrem;
+    opacity: 50%;
+    transition: 1s;
+    position: relative;
+    text-align: right;
+  }
+
+  .intro{
+    height: 90vh;
+    font-size: 1.3rem;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateY(5vw);
+  }
+
+  #showreelframe{
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    bottom: 14vh;
+    max-width: 1200px;
+    display: block;
+  }
+
+  p {
+    font-family: 'IBM Plex Serif', serif;
+    align-itrems: center;
+    justify-content: center;
+    font-size: 1.2rrem;
+    color: white;
+    position: static;
+    z-index: 200;
+    padding-bottom: 0vh;
+  }
+
+  /* all the stuff for the links */
+  .core a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transition: background 0.2s ease-out;
+    white-space: nowrap;
+    z-index: 200;
+    position: inherit;
+  }
+
+  span {
+    position: relative;
+  }
+
+  span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #e64966;
+    bottom: 1px;
+    transition: all 0.2s ease-out;
+    z-index: -10;
+  }
+
+  .core a:hover, .comingsoon a:active, .comingsoon a:focus {
+    background-position: 0 -1px;
+    letter-spacing: 0.05rem;
+    transition: 0.2s ease-in-out;
+  }
+
+  span:hover:before, span:active:before {
+    transform: translateY(0px);
+    height: .90rem;
+  }
+
+  span, a, rem {
+    word-wrap: break-word;
+    word-break: break-all;
+    text-decoration: none;
+    color: white;
+  }
+
+  ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding-left: 1.4rem;
+  }
+
+  ul li:before {
+    content: "👉 ";
+    position: absolute;
+    left: 0;
+  }
+
+    footer {
+      width: 100vw;
+      position: fixed;
+      bottom: 0px;
+      left: 0;
+      font-family: 'Ibm Plex Mono', sans-serif;
+      font-weight: 300;
+      background-color: #555555;
+      background-size: cover;
+      color: white;
+      box-sizing: border-box;
+      z-index: 1;
+    }
+
+    .shoebox{
+      padding: 2vw 5vw;
+      margin: auto;
+      width: 90vw;
+      max-width: 1200px;
+    }
+
+    .foot{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5vw;
+      grid-auto-rows: minmax(100px, auto);
+      justify-content: center;
+      font-size: .85rem;
+    }
+
+    /* NOTE: TYPEWRITER THINGS */
+    #text {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    #cursor{
+      display: none;
+      visibility: hidden;
+    }
+
+    /*
+    #cursor {
+      display: inline-block;
+      vertical-align: middle;
+      width: 3px;
+      height: 40px;
+      background-color: #e64966;
+      animation: blink .75s step-end infinite;
+    }
+     */
+
+    @keyframes blink {
+      from, to {
+        background-color: transparent
+      }
+      50% {
+        background-color: #e64966;
+      }
+    }
+    /* old slider */
+    .slider-wrapper:hover {}
+
+    .slider {
+      height: 50px;
+      overflow: hidden;
+      text-align: left;
+    }
+
+    .slider {
+      height: 100px;
+    }
+
+    .slider div {
+      height: 100px;
+    }
+
+    }
+
+
+</style>
+</head>
+
+<body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<main>
+
+
+    <div class="intro">
+    <h1>   Hi! <em>I'm Filiberto, </em> <br>
+      <div>
+        <div id="text"></div><div id="cursor"></div>
+      </div>
+    </h1>
+    </div>
+</main>
+    <footer>
+      <div class="shoebox">
+        <div class="foot">
+          <div class="feet">
+            A freelancer based between beautiful <nobr> <span> <a href="https://www.google.it/maps/place/Trentino-Alto+Adige/@46.3810602,10.8692957,9z/data=!3m1!4b1!4m5!3m4!1s0x4778799167e9b4e5:0x107098715907c60!8m2!3d46.4336662!4d11.1693296">   Trentino</a></span>,</nobr> heart of the Italian Dolomites and Graz, Austria. Holding a BA in Design and Art from <nobr><span> <a href="https://unibz.it">Unibz</a></span>.</nobr>
+            <div class="mobile"> <span> <a href="#info">👇🏻Discover more👇🏻</a> </span> </div>
+          </div>
+          <div class="feet">
+              <ul>
+                <li>  <span> <a href="https://vimeo.com/filiberto">Video portfolio</a></span> <br>     </li>
+                <li>  <span> <a href="https://www.behance.net/gallery/102094997/Filiberto-Daidola-Photography-Portfolio">Photo portfolio</span></a> </li>
+                <li>  <span> <a href="https://instagram.com/filiber.to">Instagram</a></span> <br>  </li>
+                <li>  <span> <a href="https://www.linkedin.com/in/filibertodaidola">CV on Linkedin </a></span> <br> </li>
+              <li>  Featured project:  <br>   <span> <a href="final-fact-new-4/F-act.html">f-act.science (mockup)</a></span> <br>   </li>
+              </ul>
+          </div>
+          <div class="feet">
+            Get in touch <br>
+            <ul>
+              <li> <span> <a name="info" href="mailto:hello@filiber.to">hello@filiber.to</a> </span> <br> </li>
+              <li> <span> <a href="https://t.me/lupusmochenus">Telegram @filiber.to</a> </span> </li>
+            </ul>
+            Stuff made with 💙 in Trentino, Italy. <br>
+            P.IVA/VAT IT-02588330221
+          </div>
+        </div>
+      </div>
+    </footer>
+<main>
+
+   <iframe id="showreelframe" src="https://player.vimeo.com/video/491125727?&title=1&loop=0&color=e64966&byline=0&portrait=0"  width="100%" height="80%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen> </iframe>
+</main>
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript">
+          // List of sentences
+        var _CONTENT = [
+        "it's nice to see you here :)",
+        "I'm a passionate videomaker and photographer",
+        "and deal with all sorts of content on the internet",
+        "I eat lots of choccolate‍",
+        "I often go on adventures with my gravel bike 🚴‍♂️",
+        "while you wait for a proper portfolio website, I'll tell you a few things",
+        "if you scroll down a little, and my video showreel will pop up!",
+        "I have worked for clients such as Q36.5 Absolutely Equipment, the Free University of Bozen-Bolzano, ACS Data Systems, Pietra Dolomia, GiuMa Productions",
+        "well, looks like I have your attention",
+        "currently I'm studying Content Strategy @FH Joanneum",
+        "currently I can't explain what I am studying to my mom",
+        "you should know that I like cats",
+        "and I am a telemark skier",
+        "I am a tech geek and love outdoor sports",
+        "well, we seem to get along if you're still here",
+        "time for a secret: you can see my portfolio if you type in the URL /portfolio",
+        "you can find my work and contacts below",
+        "at this point, we can get an icecream together anytime",
+        "or go and travel the world",
+        ];
+
+        // Current sentence being processed
+        var _PART = 0;
+
+        // Character number of the current sentence being processed
+        var _PART_INDEX = 0;
+
+        // Holds the handle returned from setInterval
+        var _INTERVAL_VAL;
+
+        // Element that holds the text
+        var _ELEMENT = document.querySelector("#text");
+
+        // Cursor element
+        var _CURSOR = document.querySelector("#cursor");
+
+        // Implements typing effect
+        function Type() {
+        // Get substring with 1 characater added
+        var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+        _ELEMENT.innerHTML = text;
+        _PART_INDEX++;
+
+        // If full sentence has been displayed then start to delete the sentence after some time
+        if(text === _CONTENT[_PART]) {
+          // Hide the cursor
+          _CURSOR.style.display = 'none';
+
+          clearInterval(_INTERVAL_VAL);
+          setTimeout(function() {
+            _INTERVAL_VAL = setInterval(Delete, 50);
+          }, 1000);
+        }
+        }
+
+        // Implements deleting effect
+        function Delete() {
+        // Get substring with 1 characater deleted
+        var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+        _ELEMENT.innerHTML = text;
+        _PART_INDEX--;
+
+        // If sentence has been deleted then start to display the next sentence
+        if(text === '') {
+          clearInterval(_INTERVAL_VAL);
+
+          // If current sentence was last then display the first one, else move to the next
+          if(_PART == (_CONTENT.length - 1))
+            _PART = 0;
+          else
+            _PART++;
+
+          _PART_INDEX = 0;
+
+          // Start to display the next sentence after some time
+          setTimeout(function() {
+            _CURSOR.style.display = 'inline-block';
+            _INTERVAL_VAL = setInterval(Type, 100);
+          }, 200);
+        }
+        }
+
+        // Start the typing effect on load
+        _INTERVAL_VAL = setInterval(Type, 100);
+  </script>
+</body>
+
+</html>
