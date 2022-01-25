@@ -19,7 +19,9 @@
       body {
         font-family: 'DM Sans', sans-serif;
         background-color: #fff8f0;
-        padding: 1rem;
+        padding-top: 1rem;
+        padding-right: 12rem;
+        padding-left: 12rem;
       }
       svg { height: 1.5em; width: 1.5em; vertical-align: middle;}
 
@@ -37,6 +39,21 @@
         padding-top: 1rem;
       }
 
+      .avatar {
+          float: right;
+          width: 250px;
+          max-width: 100%;
+      }
+
+      .hobbies {
+    display:grid;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
     </style>
 
   </head>
@@ -49,20 +66,29 @@
     <main>
 
       <section class="bio-heading">
+        <img class="avatar" src="shkendie.jpg" alt="Shkendie: White girl with blue eyes and brown hair wearing a dark blue sweater in front of a dark background">
+
         <h2 id="bio-heading">Who I think I am</h2>
-        I'm 25 years old Interaction Designer who recently moved to Graz <br> to study Content Strategy @ FH Joanneum.
+
+        I'm a 25 years old Interaction Designer who recently moved to Graz <br> to study Content Strategy @ <a href="https://www.fh-joanneum.at/">FH Joanneum</a>.
       </section>
 
       <section class="hobbies-heading">
         <h2 id="hobbies-heading">What I like doing</h2>
-        painting portraits, reading, panicing
+        <ul class="hobbies">
+            <li><img class="palette" src="palette1.png" alt="Color Palette Icon"> painting portraits</li>
+            <li><img class="book" src="book-alt1.png" alt="Open Book Icon"> reading</li>
+            <li><img class="gym" src="gym1.png" alt="Dumbbell Icon"> hitting the gym</li>
+            </ul>
+            <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
       </section>
 
       <section class="workxp-heading">
         <h2 id="workxp-heading">What I've been up to</h2>
         <ul class="awards">
-          <li>since November 2021: Product Designer @ SmartGarden</li>
-          <li>September 2019 - March 2020: Interaction Designer @ Bosch</li>
+          <li>since November 2021: Product Designer @ <a href="https://www.smart-garden.at/">SmartGarden</a></li>
+          <li>September 2019 - March 2020: Interaction Designer @ <a href="https://www.bosch.de/unser-unternehmen/bosch-in-deutschland/stuttgart-feuerbach/">Bosch</a></li>
         </ul>
       </section>
 
